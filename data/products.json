@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Submersible Motor – Product Model",
+    "slug": "submersible-motor-product-model",
+    "category": "Submersible Motors",
+    "short_description": "Stainless steel submersible motor designed for water pumping systems and industrial water supply operations.",
+    "description": "High-efficiency stainless steel submersible motor engineered for dependable performance in deep-well water pumping, agricultural irrigation, and municipal supply networks.",
+    "image": "assets/images/submersible-motor.png",
+    "brochure": "assets/brochures/submersible-motor-standard.pdf",
+    "specifications": [
+      {
+        "label": "Catalogue Note",
+        "value": "Product specifications will be updated based on the final product catalogue."
+      }
+    ],
+    "sort_order": 1,
+    "status": true
+  },
+  {
+    "id": 2,
+    "name": "Submersible Motor – Heavy Duty Model",
+    "slug": "submersible-motor-heavy-duty-model",
+    "category": "Submersible Motors",
+    "short_description": "Engineered for continuous underwater performance in commercial agricultural and wholesale distribution setups.",
+    "description": "Heavy-duty submersible motor designed to operate continuously under high head pressures and challenging fluid conditions with maximum thermal protection.",
+    "image": "assets/images/hero-motor.png",
+    "brochure": "assets/brochures/submersible-motor-heavy-duty.pdf",
+    "specifications": [
+      {
+        "label": "Catalogue Note",
+        "value": "Product specifications will be updated based on the final product catalogue."
+      }
+    ],
+    "sort_order": 2,
+    "status": true
+  },
+  {
+    "id": 3,
+    "name": "Submersible Motor Stator & Winding",
+    "slug": "submersible-motor-stator-winding",
+    "category": "Submersible Motor Parts",
+    "short_description": "High grade stator core assemblies and copper winding components for submersible motor maintenance.",
+    "description": "Precision laminated stator cores featuring high-conductivity copper windings insulated with premium synthetic coatings for submersible motor re-winding and manufacturing.",
+    "image": "assets/images/motor-parts.png",
+    "brochure": "assets/brochures/stator-winding-assembly.pdf",
+    "specifications": [
+      {
+        "label": "Catalogue Note",
+        "value": "Product specifications will be updated based on the final product catalogue."
+      }
+    ],
+    "sort_order": 3,
+    "status": true
+  },
+  {
+    "id": 4,
+    "name": "Rotor Shaft & Thrust Bearing Assembly",
+    "slug": "rotor-shaft-thrust-bearing-assembly",
+    "category": "Submersible Motor Parts",
+    "short_description": "Precision machined stainless steel rotor shafts, thrust bearings, and mechanical seals for submersible pumps.",
+    "description": "High-tensile stainless steel rotor shafts balanced dynamically, combined with carbon-ceramic thrust bearing sets to absorb heavy axial pump loads.",
+    "image": "assets/images/motor-parts.png",
+    "brochure": "assets/brochures/rotor-shaft-thrust-bearing.pdf",
+    "specifications": [
+      {
+        "label": "Catalogue Note",
+        "value": "Product specifications will be updated based on the final product catalogue."
+      }
+    ],
+    "sort_order": 4,
+    "status": true
+  },
+  {
+    "id": 5,
+    "name": "Control Panel Box & Starter Unit",
+    "slug": "control-panel-box-starter-unit",
+    "category": "Related Components",
+    "short_description": "Protection and control switchgear enclosures designed for submersible motor electrical installations.",
+    "description": "Weatherproof electrical control panels equipped with digital overload relays, phase failure protection, and automatic level controllers for submersible pumping systems.",
+    "image": "assets/images/related-components.png",
+    "brochure": "assets/brochures/control-panel-starter-unit.pdf",
+    "specifications": [
+      {
+        "label": "Catalogue Note",
+        "value": "Product specifications will be updated based on the final product catalogue."
+      }
+    ],
+    "sort_order": 5,
+    "status": true
+  },
+  {
+    "id": 6,
+    "name": "Submersible Cable & Accessories",
+    "slug": "submersible-cable-accessories",
+    "category": "Related Components",
+    "short_description": "Heavy duty flat submersible power cables, jointing kits, and installation accessories.",
+    "description": "Waterproof 3-core flat rubber cables designed for deep-well submersible applications, paired with resin-filled waterproof jointing kits and pipe couplers.",
+    "image": "assets/images/related-components.png",
+    "brochure": "assets/brochures/submersible-cable-accessories.pdf",
+    "specifications": [
+      {
+        "label": "Catalogue Note",
+        "value": "Product specifications will be updated based on the final product catalogue."
+      }
+    ],
+    "sort_order": 6,
+    "status": true
+  }
+]

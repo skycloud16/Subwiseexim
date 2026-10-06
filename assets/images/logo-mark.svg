@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="goldGradMark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5B800" />
+      <stop offset="100%" stop-color="#D9A200" />
+    </linearGradient>
+    <linearGradient id="navyGradMark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F3A" />
+      <stop offset="100%" stop-color="#162B4D" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Base Shield / Hexagon -->
+  <polygon points="32,4 58,18 58,46 32,60 6,46 6,18" fill="url(#navyGradMark)" stroke="url(#goldGradMark)" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Outer Export Globe Orbit Ring -->
+  <ellipse cx="32" cy="32" rx="24" ry="10" fill="none" stroke="url(#goldGradMark)" stroke-width="2" stroke-dasharray="6,2" transform="rotate(-25 32 32)"/>
+  
+  <!-- Inner Motor Rotor Blades / W & E geometry -->
+  <path d="M 18,22 L 25,42 L 32,26 L 39,42 L 46,22" fill="none" stroke="url(#goldGradMark)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32" cy="32" r="4" fill="#F5B800"/>
+</svg>
