@@ -133,6 +133,23 @@ function initFormValidation() {
         return;
       }
 
+      // Extract enquiry data for Admin Panel lead tracking
+      const formData = new FormData(form);
+      const enquiryObj = {
+        id: Date.now(),
+        date: new Date().toLocaleString(),
+        name: form.querySelector('input[placeholder*="name"], input[placeholder*="Doe"]')?.value || 'Guest',
+        company: form.querySelector('input[placeholder*="company"], input[placeholder*="business"]')?.value || 'N/A',
+        email: form.querySelector('input[type="email"]')?.value || 'N/A',
+        phone: form.querySelector('input[type="tel"]')?.value || 'N/A',
+        country: form.querySelector('input[placeholder*="country"]')?.value || 'N/A',
+        quantity: form.querySelector('input[placeholder*="Quantity"]')?.value || 'N/A',
+        requirement: form.querySelector('input[placeholder*="Product / Requirement"], #modalRequirement')?.value || 'General Enquiry',
+        message: form.querySelector('textarea')?.value || ''
+      };
+
+      saveEnquiryToStorage(enquiryObj);
+
       // Successful submission handling
       showToast(form, 'Thank you for your enquiry. Our team will get back to you shortly.', 'success');
       form.reset();
@@ -271,8 +288,19 @@ function showFloatingNotification(message, type = 'info') {
   }, 4000);
 }
 
+function saveEnquiryToStorage(enquiry) {
+  try {
+    const existing = JSON.parse(localStorage.getItem('wiseexim_enquiries') || '[]');
+    existing.unshift(enquiry);
+    localStorage.setItem('wiseexim_enquiries', JSON.stringify(existing));
+  } catch (e) {
+    console.warn('Unable to save enquiry to LocalStorage:', e);
+  }
+}
+
 // Call brochure downloads initialization inside DOMContentLoaded
 document.addEventListener('DOMContentLoaded', () => {
   initBrochureDownloads();
 });
+
 
